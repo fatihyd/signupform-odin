@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="image-section">
+        <img id="background_image" src="drummer.png" alt="drummer">
+        <img id="logo" src="logo.png" alt="logo">
+    </div>
+
+    <div class="form-section">
+        <h1>Get started</h1>
+        <form action="">
+            <div id="first-row">
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" id="first_name" required>
+                <label for="last_name">LAST NAME</label>
+                <input type="text" id="last_name" required>
+            </div>
+
+            <div id="second-row">
+                <label for="email">E-MAIL</label>
+                <input type="email" id="email" required>
+                <label for="phone_number">PHONE NUMBER</label>
+                <input type="tel" id="phone_number" placeholder="PHONE NUMBER" required>
+            </div>
+
+            <div id="third-row">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" placeholder="PASSWORD" minlength="8" required>
+                <label for="password_confirmation">CONFIRM PASSWORD</label>
+                <input type="password" id="password_confirmation" placeholder="CONFIRM PASSWORD" minlength="8" required>
+                <div id="password-error"></div>
+            </div>
+
+            <button>Create Account</button>
+        </form>
+        <div>Already have an account?
+            <a href="" style="color: white; font-weight: bold;">Log in!</a>
+
+        </div>
+</body>
+
+</html>
